@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Agent Runtime"
+  short_description: "Install and operate MAR in Minecraft Mod projects"
+  default_prompt: "Use $minecraft-agent-runtime to install or connect MAR and verify the live Minecraft development runtime."

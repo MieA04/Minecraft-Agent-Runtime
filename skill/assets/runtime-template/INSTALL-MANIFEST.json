@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "runtimeVersion": "0.1.0-SNAPSHOT",
+  "minimumJava": 17,
+  "dependencies": {
+    "org.apache.groovy:groovy": "4.0.24",
+    "com.fasterxml.jackson.core:jackson-databind": "2.17.2",
+    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310": "2.17.2"
+  }
+}
