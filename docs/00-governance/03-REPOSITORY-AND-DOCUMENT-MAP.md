@@ -7,6 +7,7 @@ minecraft-agent-runtime/
 ├── README.md
 ├── VERSION
 ├── docs/
+│   ├── USAGE.md
 │   ├── 00-governance/
 │   │   ├── 00-V0-BASELINE.md
 │   │   ├── 01-INVARIANTS.md
@@ -49,6 +50,10 @@ minecraft-agent-runtime/
 
 ## 2. 唯一职责
 
+### `docs/USAGE.md`
+
+面向 MAR 使用者的安装、连接、执行、Tool、Knowledge、安全边界和故障排查入口。它可以引用各权威规范，但不得改变或覆盖 V0 基线与冻结决策。
+
 ### `docs/00-governance/`
 
 只存基线、不变量、冻结技术决策和文档地图。禁止存项目 discovery、Tool 代码或 UI/Inventory 经验。
@@ -89,6 +94,7 @@ minecraft-agent-runtime/
 
 | 内容 | 唯一位置 |
 |---|---|
+| 用户使用说明 | `docs/USAGE.md` |
 | V0 原始目标 | `00-V0-BASELINE.md` |
 | Runtime 不变量 | `01-INVARIANTS.md` |
 | 冻结技术选择 | `02-FROZEN-DECISIONS.md` |
